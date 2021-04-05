@@ -1,0 +1,1779 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.black {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  background-color: #000;
+  max-width: 1920px;
+  height: 100%;
+  box-shadow: 0 0 21px rgb(157 163 183 / 75%);
+  margin: auto;
+}
+.container {
+  width: 100%;
+}
+.container-fluid {
+  width: 90%;
+  padding-top: 100px;
+  margin: auto;
+  background: url(./images/bg.png) no-repeat center;
+  background-size: contain;
+}
+.container-block {
+  width: 90%;
+  background: url(./images/formBG.png) no-repeat right;
+  background-size: contain;
+  margin: auto;
+  margin-top: 50px;
+}
+.blockTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.blockTitle h3 {
+  width: 24%;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.titleText {
+  width: 70%;
+}
+.titleText p {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+}
+.titleText h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 115px;
+  color: #fff;
+}
+.titleText h1 > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 115px;
+  color: #ff004f;
+}
+.titleCost {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.leftL {
+  width: 40%;
+}
+.rightR {
+  width: 60%;
+}
+.aquaBtn {
+  height: 70px;
+  background-color: #00f7ef;
+  color: #111;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border-radius: 50px;
+  margin: 50px 0px;
+}
+.redBtnGr {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.redBtnL {
+  width: 40%;
+  height: 84px;
+  background: #ff004f;
+  border: 2px solid #09b4d9;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 0px #09a7d9;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 70px 0px;
+  transition: all ease-in-out 0.3s;
+}
+.redBtnL:hover {
+  box-shadow: 0px 0px 0px;
+  transition: all ease-in-out 0.3s;
+}
+.redBtnR {
+  width: 55%;
+  height: 84px;
+  background: #ff004f;
+  border: 2px solid #09b4d9;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 0px #09a7d9;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 70px 0px;
+  transition: all ease-in-out 0.3s;
+}
+.redBtnR:hover {
+  box-shadow: 0px 0px 0px;
+  transition: all ease-in-out 0.3s;
+}
+
+.titleCost p {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  color: #ffffff;
+}
+.titleCost h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+#nav {
+  max-width: 1920px;
+  z-index: 9;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  transition: all 1s ease;
+}
+.navContainer {
+  width: 90%;
+  margin: auto;
+}
+.leftName {
+  display: flex;
+  justify-content: center;
+}
+.univer {
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  border-right: 2px solid #ed1c24;
+}
+.univerImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.univer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.nav img {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+}
+.leftName p {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0px;
+  line-height: 22px;
+}
+.univer h3 {
+  margin: 0px;
+  line-height: 1;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.rightBlock {
+  display: flex;
+  justify-content: flex-end;
+}
+.formBody {
+  width: 100%;
+  background: #12131c;
+  box-shadow: 28px 37px 1px #ff0056;
+  border-radius: 42px;
+  margin: auto;
+  margin-top: 100px;
+}
+.formBody h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 50px;
+  line-height: 1;
+}
+.formBody h3 > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 105px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00f7ef;
+  line-height: 1;
+}
+.formOne {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.formOne input {
+  width: 30%;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid rgba(171, 171, 171, 0.69);
+  box-sizing: border-box;
+  box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.03);
+  border-radius: 54px;
+  outline: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  color: #b0b0b0;
+  padding-left: 15px;
+}
+.formOneCheck {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.formOneCheck input {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.formOneCheck label {
+  padding: 1rem;
+}
+.rgbaBg {
+  width: 100%;
+  background: url(./images/rgba.png) no-repeat left bottom;
+  background-size: contain;
+}
+.container-block h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 150px 0px;
+}
+.container-block h4 > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00f7ef;
+}
+.rgbaGroup {
+  width: 70%;
+  margin-left: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rgbaPart {
+  padding: 50px 0px;
+  border-bottom: 1px solid #333;
+}
+.rgbaPart h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.rgbaPart p {
+  width: 60%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.courseBlock {
+  width: 90%;
+  margin: auto;
+}
+.courseBlock h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 50px 0px;
+}
+.courseBlock h4 > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #00f7ef;
+}
+.courseText {
+  width: 70%;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.linesBlock {
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+.linesBox {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+.linesBox img {
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.linesOne,
+.linesTwo,
+.linesThree,
+.linesFourth {
+  width: 80%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px auto;
+  padding: 25px;
+}
+.linesBox h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.linesBox h6 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 190px;
+  line-height: 5px;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.5px #00f7ef;
+}
+.linesBox p {
+  width: 80%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+#two,
+#fourth {
+  margin-left: -50px;
+}
+.certificateBlock {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  padding: 50px 0px;
+}
+.certificateText {
+  width: 50%;
+  height: 100%;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.certificateBlock h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 105px;
+  text-transform: uppercase;
+  color: #00f7ef;
+  margin: 20px 0px;
+}
+.certificateBlock p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.numberBlock {
+  width: 90%;
+  margin: auto;
+  color: #b0b0b0;
+}
+.nuberBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+.nuberBox h6 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 190px;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.5px #00f7ef;
+}
+.nuberBox p {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 4rem;
+}
+.numberBtn {
+  width: 463px;
+  height: 76px;
+  background: #ff004f;
+  border: 2px solid #00f7ef;
+  box-shadow: 0px 6px 0px #00f7ef;
+  border-radius: 500px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  margin: 50px 150px;
+  transition: all ease-in-out 0.3s;
+}
+.numberBtn:hover {
+  box-shadow: 0px 0px 0px;
+  transition: all ease-in-out 0.3s;
+}
+.falseText {
+  width: 60%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 55px;
+  color: #ffffff;
+}
+.botText {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  color: #ffffff;
+  padding: 50px 0px;
+}
+#dangerBg {
+  width: 100%;
+  background: url(./images/dangerBG.png) no-repeat right;
+  background-size: contain;
+}
+.dangerBlock {
+  width: 65%;
+}
+.dangerText {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 88px;
+  line-height: 100px;
+  color: #ff004f;
+}
+.dangerText > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 88px;
+  line-height: 100px;
+  color: #fff;
+}
+
+.circleGroup {
+  padding-top: 50px;
+}
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00f7ef;
+}
+
+.circleParts {
+  display: flex;
+  align-items: center;
+}
+.circleParts p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 42px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.teachCourse {
+  width: 90%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.teachGroup {
+  padding-left: 50px;
+}
+.teachGroup h6 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.teachRegular {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.teachNormal {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 55px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.ellipseGroup {
+  display: flex;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.ellipse {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00f7ef;
+  margin-right: 20px;
+}
+.millionText {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 150px;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.5px #00f7ef;
+}
+#tiktokBg {
+  width: 90%;
+  background: url(./images/tiktokLogo.png) no-repeat right;
+  background-size: contain;
+}
+.costRubl {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.costRubl button {
+  height: 70px;
+  background: #ff004f;
+  border: 2px solid #00f7ef;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 0px #00f7ef;
+  border-radius: 500px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 28px 70px;
+  color: #ffffff;
+  transition: all ease-in-out 0.3s;
+}
+.costRubl button:hover {
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 0px 0px;
+}
+.costRubl h6 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.certificateBottom {
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+}
+.certificatPrizes {
+  width: 90%;
+  margin: auto;
+  padding-left: 50px;
+}
+.certificatPrizes h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 105px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.certificatPrizes h5 > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 105px;
+  text-transform: uppercase;
+  color: #00f7ef;
+}
+.certificatPrizes p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.sectionGroup {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+.selection select,
+option {
+  background: #ffffff;
+  border: 1px solid #c1c1c1;
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background: url(images/select.svg) no-repeat right white;
+  cursor: pointer;
+  padding: 20px 50px;
+}
+.sectionGroup button {
+  background: #ff004f;
+  border: 2px solid #00f7ef;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 0px #00f7ef;
+  border-radius: 500px;
+  padding: 28px 70px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.sectionGroup button:hover {
+  box-shadow: 0px 0px 0px;
+  transition: all ease-in-out 0.3s;
+}
+.sectionGroup p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.footerBg {
+  width: 100%;
+  background: url(./images/footerBG.png) no-repeat center;
+  background-size: cover;
+}
+.footerGroup {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+.footerL {
+  width: 60%;
+}
+.domainText {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 200px;
+}
+.footerTiktok {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footerL h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 115px;
+  line-height: 115px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footerL h5 > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 115px;
+  line-height: 115px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ff004f;
+}
+.footerR {
+  width: 35%;
+  background: #ffffff;
+  box-shadow: 0px 26px 20px rgba(197, 197, 197, 0.25);
+  border-radius: 35px;
+  padding: 2rem;
+}
+.footerR h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.footerR h5 > small {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00f7ef;
+}
+.footerR p {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.formsInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.formsInput .formInput {
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid rgba(171, 171, 171, 0.69);
+  box-sizing: border-box;
+  box-shadow: inset 1px 3px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 45px;
+  margin: 20px 0px;
+  padding-left: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #b0b0b0;
+}
+.formsInput button {
+  width: 100%;
+  height: 60px;
+  background: #ff004f;
+  border: 2px solid #00f7ef;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 0px #00f7ef;
+  border-radius: 500px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.formsInput button:hover {
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 0px 0px;
+}
+.formsCheck {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formsCheck input {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.formsCheck label {
+  padding-left: 15px;
+  padding-top: 10px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.6;
+}
+.footer {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#footerNav {
+  width: 60%;
+  margin-right: auto;
+}
+.footer .nav {
+  border-bottom: none;
+}
+
+.footer .univer {
+  border-right: 2px solid #fff;
+}
+.modal {
+  max-width: 2030px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.modalOpen {
+  position: absolute;
+  width: 40%;
+  height: 700px;
+  background: #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+  z-index: 11;
+}
+.closeSvg {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.mCheck img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.regModal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.regModal h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #000000;
+}
+.mCheck input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.mCheck label {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.pModal {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: #000000;
+  padding-left: 1rem;
+}
+.modalForms {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.modalFormsL {
+  width: 50%;
+  padding: 5px;
+  padding-top: 10px;
+}
+.modalFormsR {
+  width: 50%;
+  padding: 5px;
+}
+
+.modalGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.modalGroup input {
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  border: none;
+  background: #eee;
+}
+#dataIn {
+  width: 60%;
+}
+#passportIn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#serialNumber {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+#serialNumber input {
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  border: none;
+  background: #eee;
+}
+.modalForms label {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #020202;
+  padding: 2px 0px;
+}
+.modalGroup input::placeholder {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #020202;
+  padding: 2px 0px;
+}
+.modalBtn {
+  padding-bottom: 5px;
+}
+.modalBtn button {
+  width: 40px;
+  height: 40px;
+  background: #f2f3f5;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+}
+.radioCheck {
+  padding-left: 1rem;
+}
+.radioCheck label {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.radioBtnGroup {
+  width: 100%;
+  padding-left: 1rem;
+}
+.radioBtnGroup button {
+  background: #ff004f;
+  border: 1px solid #09b4d9;
+  box-shadow: 0px 4px 0px #09a7d9;
+  border-radius: 35px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  margin: 10px 0px;
+}
+.radioBtnGroup :nth-child(2) {
+  background-color: #ff004f4d;
+}
+.radioBtnGroup button:hover {
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 0px 0px;
+}
+
+@media screen and (max-width: 1300px) {
+  .redBtnGr {
+    width: 80%;
+  }
+  .redBtnL {
+    margin: 0px;
+  }
+  .redBtnR {
+    margin: 0px;
+  }
+  .titleCost {
+    width: 100%;
+  }
+  .rightR {
+    width: 80%;
+  }
+  .blockTitle {
+    flex-direction: column;
+  }
+  .blockTitle h3 {
+    width: 100%;
+    margin: 30px 0px;
+    font-size: 50px;
+    line-height: 1;
+  }
+  .linesBox img {
+    display: none;
+  }
+  .costRubl {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .costRubl h6 {
+    margin: 25px 0px;
+  }
+
+  .falseText {
+    width: 100%;
+  }
+  .certificateBottom {
+    margin-top: 50px;
+  }
+  .sectionGroup button {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .selection select,
+  option {
+    width: 100%;
+  }
+  .numberBtn {
+    margin: 0px;
+  }
+  .footerR {
+    width: 40%;
+  }
+  .certificatPrizes {
+    width: 80%;
+    padding: 0px;
+  }
+  .modalOpen {
+    width: 60%;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .redBtnGr {
+    width: 100%;
+  }
+  .rightR {
+    width: 50%;
+  }
+  .container-block h4 {
+    padding: 100px 0px;
+  }
+  .rgbaGroup {
+    width: 90%;
+    margin: auto;
+  }
+  .rgbaPart p {
+    width: 100%;
+  }
+  .rgbaPart {
+    padding: 10px 0px;
+  }
+  .linesBlock {
+    display: flex;
+    flex-direction: column;
+  }
+  .linesBox {
+    flex-direction: column;
+  }
+  #one,
+  #three {
+    margin-left: -50px;
+  }
+  .linesOne,
+  .linesTwo,
+  .linesThree,
+  .linesFourth {
+    width: 90%;
+    margin: 70px auto;
+  }
+  .certificateBlock {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .certificateText {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .certificateBlock h5 {
+    font-size: 130px;
+  }
+  .courseBlock h4 {
+    font-size: 120px;
+  }
+  .teachCourse {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .teachGroup {
+    width: 100%;
+    padding: 0px;
+    padding-top: 2rem;
+  }
+  .certificateBottom {
+    flex-direction: column;
+  }
+  .certificatPrizes {
+    width: 100%;
+    padding: 0px;
+  }
+  .certificatPrizes h5 {
+    display: flex;
+    padding-left: 20px;
+  }
+  .selection select,
+  option {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+  }
+  .sectionGroup {
+    margin-bottom: 0px;
+  }
+  .domainText {
+    padding: 0px;
+  }
+  .footerL h5 {
+    font-size: 70px;
+    line-height: 1;
+  }
+  .footerL h5 > small {
+    font-size: 70px;
+  }
+  .footerR {
+    width: 70%;
+  }
+  .footerGroup {
+    flex-direction: column;
+  }
+  .footerL {
+    width: 100%;
+  }
+  .footerR {
+    width: 100%;
+    padding: 1rem;
+  }
+  #footerNav {
+    width: 100%;
+  }
+  .modalOpen {
+    width: 80%;
+    left: 10%;
+  }
+  .radioBtnGroup button {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .univer2 {
+    display: none;
+  }
+  #footerNav {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .aquaBtn {
+    width: 100%;
+  }
+  .container {
+    background-size: contain;
+  }
+  .titleText {
+    width: 100%;
+  }
+  .titleText h1 {
+    font-size: 90px;
+    line-height: 1;
+  }
+  .titleText h1 > small {
+    font-size: 90px;
+    line-height: 1;
+  }
+  .titleCost {
+    width: 100%;
+    flex-direction: column;
+  }
+  .titleCost h2 {
+    font-size: 90px;
+  }
+  .titleCost p {
+    font-size: 40px;
+  }
+  .redBtnGr {
+    width: 100%;
+    flex-direction: column;
+  }
+  .redBtnL {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .redBtnR {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .leftL {
+    width: 100%;
+  }
+  .rightR {
+    width: 100%;
+  }
+  .formBody {
+    box-shadow: none;
+  }
+  .formBody h3 {
+    font-size: 50px;
+    padding: 20px;
+  }
+  .formBody h3 > small {
+    font-size: 50px;
+  }
+  .formOne {
+    flex-direction: column;
+  }
+  .formOne input {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .container-block h4 {
+    font-size: 70px;
+    line-height: 1;
+    padding: 50px 0px;
+  }
+  .container-block h4 > small {
+    font-size: 70px;
+    line-height: 1;
+  }
+  .rgbaPart h3 {
+    font-size: 50px;
+  }
+  .rgbaPart p {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .courseBlock h4 {
+    font-size: 70px;
+    line-height: 1;
+  }
+  .courseBlock h4 > small {
+    font-size: 70px;
+    line-height: 1;
+  }
+  .courseText {
+    width: 100%;
+    font-size: 50px;
+    line-height: 1;
+  }
+  .linesBox p {
+    width: 100%;
+    line-height: 1.5;
+  }
+  .certificateText {
+    padding-top: 0px;
+  }
+  .certificateBlock h5 {
+    font-size: 100px;
+  }
+  .nuberBox p {
+    font-size: 30px;
+    padding-left: 1rem;
+  }
+  .numberBtn {
+    width: 100%;
+    margin: 0px;
+  }
+  .ellipseGroup p {
+    line-height: 1.5;
+    padding-left: 10px;
+  }
+  .ellipse {
+    margin-right: 0px;
+    padding-right: 10px;
+  }
+  .circle {
+    margin-right: 0px;
+    padding-right: 10px;
+  }
+  .millionText {
+    font-size: 60px;
+    line-height: 1;
+    padding-top: 1rem;
+  }
+  .dangerBlock {
+    width: 100%;
+    font-size: 70px;
+    line-height: 1.2;
+  }
+  .costRubl button {
+    width: 100%;
+    padding: 0px;
+  }
+  .dangerText {
+    font-size: 70px;
+  }
+  .dangerText > small {
+    font-size: 70px;
+  }
+  .sectionGroup button {
+    padding: 20px 0px;
+  }
+  .sectionGroup p {
+    text-align: start;
+  }
+  .courseBlock h4 {
+    padding: 20px 0px;
+  }
+  .selection select,
+  option {
+    background: white;
+  }
+  .modalOpen {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .titleText h1 {
+    font-size: 50px;
+  }
+  .titleText h1 > small {
+    font-size: 50px;
+  }
+  .titleText p {
+    font-size: 30px;
+  }
+  .titleCost h2 {
+    font-size: 50px;
+  }
+  .titleCost p {
+    font-size: 30px;
+  }
+  .blockTitle h3 {
+    margin: 15px 0px;
+    font-size: 36px;
+  }
+  .formBody h3 {
+    font-size: 36px;
+    padding: 20px;
+  }
+  .formBody h3 > small {
+    font-size: 36px;
+  }
+  .formOne input {
+    font-size: 20px;
+  }
+  .formOneCheck input {
+    width: 50px;
+    height: 50px;
+  }
+  .formOneCheck label {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .container-block h4 {
+    font-size: 50px;
+  }
+  .container-block h4 > small {
+    font-size: 50px;
+  }
+  .rgbaBg {
+    background: none;
+  }
+  .rgbaPart h3 {
+    font-size: 36px;
+  }
+  .rgbaPart p {
+    font-size: 20px;
+  }
+  .courseBlock h4 {
+    font-size: 50px;
+  }
+  .courseBlock h4 > small {
+    font-size: 50px;
+  }
+  .courseText {
+    font-size: 36px;
+  }
+  .linesOne,
+  .linesTwo,
+  .linesThree,
+  .linesFourth {
+    padding: 10px;
+  }
+  .certificateBlock h5 {
+    font-size: 50px;
+  }
+  .certificateBlock p {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .nuberBox p {
+    font-size: 26px;
+  }
+  .teachGroup h6 {
+    font-size: 38px;
+    line-height: 1;
+  }
+  .teachRegular {
+    font-size: 30px;
+  }
+  .teachNormal {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .ellipse {
+    display: none;
+  }
+  .circle {
+    display: none;
+  }
+  .millionText {
+    font-size: 40px;
+  }
+  .dangerText {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .dangerText > small {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .botText {
+    font-size: 40px;
+    padding: 15px 0px;
+  }
+  .falseText {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .circleParts p {
+    font-size: 24px;
+    line-height: 1.2;
+    padding-left: 0px;
+  }
+  .certificatPrizes h5 {
+    font-size: 50px;
+    line-height: 1.2;
+    padding-left: 0px;
+  }
+  .certificatPrizes h5 > small {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  #tiktokBg {
+    background: none;
+  }
+  #dangerBg {
+    background: none;
+  }
+  .domainText {
+    font-size: 28px;
+    line-height: 2;
+  }
+  .footerTiktok {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  .footerL h5 {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  .footerL h5 > small {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  .footerR h5 {
+    font-size: 38px;
+    line-height: 1.5;
+  }
+  .footerR h5 > small {
+    font-size: 38px;
+    line-height: 1;
+  }
+  .regModal h3 {
+    font-size: 20px;
+  }
+  .mCheck label {
+    font-size: 16px;
+  }
+  .modalGroup input {
+    height: 30px;
+  }
+  #serialNumber input {
+    height: 30px;
+  }
+  .modalBtn button {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+  .modalForms label {
+    font-size: 12px;
+  }
+  .pModal {
+    font-size: 14px;
+  }
+  .radioBtnGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  .radioBtnGroup button {
+    width: 90%;
+    margin: 5px 0px;
+  }
+  .responseUserImg {
+    width: 230px;
+  }
+}
